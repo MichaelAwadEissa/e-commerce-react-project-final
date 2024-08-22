@@ -51,7 +51,7 @@ import LogIn from '../pages/log in/logIn';
 import Cart from '../components/ShoppingCart/shopping Cart';
 import { useSelector } from 'react-redux';
 import Watchlist from '../components/watchlist/displayWatchList';
-import Details from '../components/details/details';
+
 
 export default function AppRoute() {
   const checkRedux = useSelector((state) => state.myLang.lang);
